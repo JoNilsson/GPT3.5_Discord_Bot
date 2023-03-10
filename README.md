@@ -68,7 +68,7 @@ Tag the Docker image with a GCP-compatible name using the following command:
 docker tag gpt_bot gcr.io/<PROJECT-ID>/gpt_bot
 ```
 
-Replace <PROJECT-ID> with your GCP project ID.
+Replace `PROJECT-ID` with your GCP project ID.
 
 Push the Docker image to GCP Container Registry using the following command:
 
@@ -76,7 +76,7 @@ Push the Docker image to GCP Container Registry using the following command:
 
 docker push gcr.io/<PROJECT-ID>/gpt_bot
 ```
-Modify the`example_deployment.yaml`  Kubernetes deployment file with your <PROJECT-ID>:
+Modify the`example_deployment.yaml`  Kubernetes deployment file with your `PROJECT-ID`:
 
 ```yaml
 apiVersion: apps/v1
