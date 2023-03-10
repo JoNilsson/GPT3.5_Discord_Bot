@@ -1,0 +1,5 @@
+Discord.py
+openai
+python-dotenv
+tiktoken
+colorama
