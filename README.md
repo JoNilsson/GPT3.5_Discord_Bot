@@ -20,7 +20,7 @@ It is assumed that you have already know how to set-up a discord BOT and have an
 4. Behaviors are stored in the `./prompts` directory.
   - edit the example_convo.txt file to modify the bahavior
   - add multiple examples to expand the bot behaviors
-5. Open a terminal window and navigate to the folder containing the downloaded files, then type run.bat
+5. Execute the `run_bot.sh` bash script (macOS) to star the service locally
 
 ## Deployment
 
