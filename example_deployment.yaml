@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gpt-bot
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: gpt-bot
+  template:
+    metadata:
+      labels:
+        app: gpt-bot
+    spec:
+      containers:
+      - name: gpt-bot
+        image: gcr.io/<PROJECT-ID>/gpt_bot
+        ports:
+        - containerPort: 80
